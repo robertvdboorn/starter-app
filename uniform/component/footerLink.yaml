@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: footerLink
+name: Footer Link
+icon: link
+parameters:
+  - id: label
+    name: Label
+    type: text
+    typeConfig: null
+    localizable: true
+    allowConditionalValues: true
+  - id: link
+    name: Link
+    type: link
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+    localizable: true
+    allowConditionalValues: true
+  - id: openInNewTab
+    name: Open in new tab
+    type: checkbox
+    typeConfig: null
+    allowConditionalValues: true
+  - id: icon
+    name: Icon
+    type: asset
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+    allowConditionalValues: true
+categoryId: f52c3bf7-503a-4705-8b49-c5522abd6626
+useTeamPermissions: true
+slots: []
+titleParameter: label
+thumbnailParameter: icon
+canBeComposition: false
+created: '2025-05-07T08:54:35.190036+00:00'
+updated: '2025-05-07T08:54:35.190036+00:00'

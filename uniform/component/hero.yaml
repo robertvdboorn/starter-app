@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: hero
+name: Hero
+icon: image-text
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+    allowConditionalValues: true
+  - id: description
+    name: Description
+    type: text
+    typeConfig: null
+    localizable: true
+    allowConditionalValues: true
+  - id: image
+    name: Image
+    type: asset
+    typeConfig:
+      max: 1
+      min: 0
+      allowedTypes:
+        - image
+    localizable: true
+    allowConditionalValues: true
+categoryId: 5f5d06a1-ef95-4194-b849-89de19d9cc72
+useTeamPermissions: true
+slots:
+  - id: buttons
+    name: Buttons
+    allowedComponents:
+      - button
+      - $test
+      - $localization
+      - $loop
+      - $personalization
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: title
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-05-07T08:12:37.492373+00:00'
+updated: '2025-05-07T08:38:55.36379+00:00'

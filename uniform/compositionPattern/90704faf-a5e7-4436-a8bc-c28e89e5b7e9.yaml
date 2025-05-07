@@ -1,0 +1,176 @@
+composition:
+  _name: Page Template
+  _id: 90704faf-a5e7-4436-a8bc-c28e89e5b7e9
+  type: page
+  slots:
+    body:
+      - _id: 82ab4e59-65ab-4d2f-bacc-0451117a9e9f
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Components
+        _overridability:
+          hideLockedParameters: true
+    footer:
+      - _id: 5f9fbb78-c1ba-4593-a86b-3a4b166d3bd0
+        type: footer
+        slots:
+          links:
+            - _id: 3e60c585-beb2-4219-a0f5-220c13bfdd45
+              type: footerLink
+              parameters:
+                icon:
+                  type: asset
+                  locales:
+                    en:
+                      - _id: 47f8ddfa-9b7d-4f4a-ba79-c0a3f9eaeaed
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: 29d661a4-7703-46f8-aff8-5976ab767826
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/OtQgrCCSSy-1yVr5diOUwQ/lzruNsP1Qq2PjMZ70p3u0w-file.svg
+                            type: text
+                          file:
+                            type: file
+                            value: 64480062-d3b1-44a1-ab84-dd77734e1e58
+                          size:
+                            value: 391
+                            type: number
+                          title:
+                            type: text
+                            value: file.svg
+                          width:
+                            value: 150
+                            type: number
+                          height:
+                            value: 150
+                            type: number
+                          mediaType:
+                            value: image/svg+xml
+                            type: text
+                        _source: uniform-assets
+                  value: []
+                link:
+                  type: link
+                  locales:
+                    en:
+                      path: https://docs.uniform.app/
+                      type: url
+                label:
+                  type: text
+                  locales:
+                    en: Learn
+                openInNewTab:
+                  type: checkbox
+                  value: true
+            - _id: 759ecad2-7d77-48d1-92a8-6652af04e63e
+              type: footerLink
+              parameters:
+                icon:
+                  type: asset
+                  locales:
+                    en:
+                      - _id: 872a53bc-81e9-400a-967a-01f346400e4d
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: 5bc4cc28-8d2e-47aa-993d-2940a936fbfb
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/OtQgrCCSSy-1yVr5diOUwQ/SehwxuL5S5e3M2vNaUGrXg-window.svg
+                            type: text
+                          file:
+                            type: file
+                            value: 10545acc-9277-45d7-9c8a-d9ef8d3fa02b
+                          size:
+                            value: 385
+                            type: number
+                          title:
+                            type: text
+                            value: window.svg
+                          width:
+                            value: 150
+                            type: number
+                          height:
+                            value: 150
+                            type: number
+                          mediaType:
+                            value: image/svg+xml
+                            type: text
+                        _source: uniform-assets
+                  value: []
+                link:
+                  type: link
+                  locales:
+                    en:
+                      path: https://github.com/uniformdev/examples
+                      type: url
+                label:
+                  type: text
+                  locales:
+                    en: Examples
+                openInNewTab:
+                  type: checkbox
+                  value: true
+            - _id: fd86599e-dfa4-40fc-b059-bccf0a6fde1e
+              type: footerLink
+              parameters:
+                icon:
+                  type: asset
+                  locales:
+                    en:
+                      - _id: 647b7707-95aa-4107-a2dc-9375e9276e8d
+                        type: image
+                        fields:
+                          id:
+                            type: text
+                            value: 07ef6220-4aef-4731-8d27-075c7f1acea0
+                          url:
+                            value: >-
+                              https://img.uniform.global/p/OtQgrCCSSy-1yVr5diOUwQ/3JsKf-ibSS2bh-qjvXwHrw-globe.svg
+                            type: text
+                          file:
+                            type: file
+                            value: 41106fe5-c698-473e-87c1-e4d605fa833a
+                          size:
+                            value: 1035
+                            type: number
+                          title:
+                            type: text
+                            value: globe.svg
+                          width:
+                            value: 150
+                            type: number
+                          height:
+                            value: 150
+                            type: number
+                          mediaType:
+                            value: image/svg+xml
+                            type: text
+                        _source: uniform-assets
+                  value: []
+                link:
+                  type: link
+                  locales:
+                    en:
+                      path: https://uniform.dev
+                      type: url
+                label:
+                  type: text
+                  locales:
+                    en: Go to uniform.dev
+                openInNewTab:
+                  type: checkbox
+                  value: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en
+created: '2025-05-07T09:15:28.657591+00:00'
+modified: '2025-05-07T09:29:26.696304+00:00'
+pattern: true

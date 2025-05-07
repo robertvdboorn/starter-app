@@ -1,0 +1,93 @@
+composition:
+  _name: Homepage
+  _id: 8a393425-e40f-48ae-a2a0-2eb707fc013f
+  _slug: /
+  type: page
+  _overrides:
+    8a393425-e40f-48ae-a2a0-2eb707fc013f|82ab4e59-65ab-4d2f-bacc-0451117a9e9f:
+      slots:
+        $slotSectionItems:
+          - _id: 25370bfe-5a74-48e6-8437-d9da16e5dc2a
+            type: hero
+            slots:
+              buttons:
+                - _id: 2133dafc-7b41-4b9b-987a-28ef5e979076
+                  type: button
+                  parameters:
+                    link:
+                      type: link
+                      locales:
+                        en:
+                          path: https://uniform.app/schemas/swagger.html
+                          type: url
+                    label:
+                      type: text
+                      locales:
+                        en: Uniform.app
+                    openInNewTab:
+                      type: checkbox
+                      value: true
+                - _id: 338afd6f-6a96-4744-99d6-6f2f4088111e
+                  type: button
+                  parameters:
+                    link:
+                      type: link
+                      locales:
+                        en:
+                          path: https://uniform.global/
+                          type: url
+                    label:
+                      type: text
+                      locales:
+                        en: Uniform.global
+                    openInNewTab:
+                      type: checkbox
+                      value: true
+            parameters:
+              image:
+                type: asset
+                locales:
+                  en:
+                    - _id: 7ece1bfa-421c-42bc-8118-d912a35ce91d
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 2b1a7aa8-4b62-4429-9810-1e69bb89980d
+                        url:
+                          type: text
+                          value: >-
+                            https://img.uniform.global/p/OtQgrCCSSy-1yVr5diOUwQ/nT3QhcSnQkOeD9EI3OUDjw-next.svg
+                        file:
+                          type: file
+                          value: d3b3503f-34f9-402a-8a94-aa1fd01f9960
+                        size:
+                          type: number
+                          value: 1375
+                        title:
+                          type: text
+                          value: next.svg
+                        width:
+                          type: number
+                          value: 300
+                        height:
+                          type: number
+                          value: 61
+                        mediaType:
+                          type: text
+                          value: image/svg+xml
+                      _source: uniform-assets
+              title:
+                type: text
+                locales:
+                  en: This is a Next.js based example
+              description:
+                type: text
+                locales:
+                  en: The template of create-next-app was used as a baseline.
+  _locales:
+    - en
+  _pattern: 90704faf-a5e7-4436-a8bc-c28e89e5b7e9
+created: '2025-05-07T09:24:12.513477+00:00'
+modified: '2025-05-07T09:30:09.173943+00:00'
+pattern: false

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 07ef6220-4aef-4731-8d27-075c7f1acea0
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: globe.svg
+    file:
+      type: file
+      value: 41106fe5-c698-473e-87c1-e4d605fa833a
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/OtQgrCCSSy-1yVr5diOUwQ/3JsKf-ibSS2bh-qjvXwHrw-globe.svg
+      type: text
+    size:
+      value: 1035
+      type: number
+    width:
+      value: 150
+      type: number
+    height:
+      value: 150
+      type: number
+    custom: {}
+created: '2025-05-07T09:04:01.177622+00:00'
+modified: '2025-05-07T09:04:01.177622+00:00'

@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: button
+name: Button
+icon: play-button-r
+parameters:
+  - id: label
+    name: Label
+    type: text
+    typeConfig: null
+    localizable: true
+    allowConditionalValues: true
+  - id: link
+    name: Link
+    type: link
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+    localizable: true
+    allowConditionalValues: true
+  - id: openInNewTab
+    name: Open in new tab
+    type: checkbox
+    typeConfig: null
+    allowConditionalValues: true
+categoryId: 5f5d06a1-ef95-4194-b849-89de19d9cc72
+useTeamPermissions: true
+slots: []
+titleParameter: label
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-05-07T08:18:19.970839+00:00'
+updated: '2025-05-07T08:30:28.068011+00:00'

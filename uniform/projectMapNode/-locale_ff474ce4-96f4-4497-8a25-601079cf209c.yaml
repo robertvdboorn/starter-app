@@ -1,0 +1,10 @@
+id: ff474ce4-96f4-4497-8a25-601079cf209c
+name: Homepage
+order: 500
+path: /:locale
+type: composition
+pathSegment: ':locale'
+data:
+  previewValue: ''
+compositionId: 8a393425-e40f-48ae-a2a0-2eb707fc013f
+projectMapId: 1eae76b0-8340-4c5b-b7a3-913beea9a1ac

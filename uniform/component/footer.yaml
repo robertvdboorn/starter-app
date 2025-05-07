@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: footer
+name: Footer
+icon: border-bottom
+parameters: []
+categoryId: f52c3bf7-503a-4705-8b49-c5522abd6626
+useTeamPermissions: true
+slots:
+  - id: links
+    name: Links
+    allowedComponents:
+      - footerLink
+      - $test
+      - $localization
+      - $loop
+      - $personalization
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+canBeComposition: false
+created: '2025-05-07T08:54:52.943774+00:00'
+updated: '2025-05-07T08:54:52.943774+00:00'

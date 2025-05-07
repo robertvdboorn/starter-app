@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2b1a7aa8-4b62-4429-9810-1e69bb89980d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: next.svg
+    file:
+      type: file
+      value: d3b3503f-34f9-402a-8a94-aa1fd01f9960
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/OtQgrCCSSy-1yVr5diOUwQ/nT3QhcSnQkOeD9EI3OUDjw-next.svg
+      type: text
+    size:
+      value: 1375
+      type: number
+    width:
+      value: 300
+      type: number
+    height:
+      value: 61
+      type: number
+    custom: {}
+created: '2025-05-07T08:39:55.593302+00:00'
+modified: '2025-05-07T08:39:55.593302+00:00'

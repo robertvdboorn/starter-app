@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c7f4a97c-e2f9-4c37-8746-b516a1e807f7
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: vercel.svg
+    file:
+      type: file
+      value: 74ae255a-e1cf-4c03-8e13-ffdd928cb0d8
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/OtQgrCCSSy-1yVr5diOUwQ/534qwN8wQG6jUGi7ztNjQQ-vercel.svg
+      type: text
+    size:
+      value: 128
+      type: number
+    width:
+      value: 173
+      type: number
+    height:
+      value: 150
+      type: number
+    custom: {}
+created: '2025-05-07T09:04:01.177622+00:00'
+modified: '2025-05-07T09:04:01.177622+00:00'
