@@ -1,15 +1,10 @@
-import { UniformComposition } from "@uniformdev/canvas-react";
-import { withUniformGetServerSideProps } from "@uniformdev/canvas-next/route";
+import { prependLocale, withUniformGetServerSideProps } from "@uniformdev/canvas-next/route";
 import {
   CANVAS_DRAFT_STATE,
   CANVAS_PUBLISHED_STATE,
-  RootComponentInstance,
 } from "@uniformdev/canvas";
-import "@/components/page/page";
 
-export default function Page({ data }: { data: RootComponentInstance }) {
-  return <UniformComposition data={data}></UniformComposition>;
-}
+import PageComposition from "@/components/page/page-composition";
 
 export const getServerSideProps = withUniformGetServerSideProps({
   requestOptions: (context) => ({
@@ -17,6 +12,10 @@ export const getServerSideProps = withUniformGetServerSideProps({
       ? CANVAS_DRAFT_STATE
       : CANVAS_PUBLISHED_STATE,
   }),
+  modifyPath: (path, context) => {
+      const resultingPath = prependLocale(path, context);
+    return resultingPath;
+  },
   handleComposition: async (routeResponse, _context) => {
     const { composition, errors } = routeResponse.compositionApiResponse || {};
 
@@ -31,3 +30,5 @@ export const getServerSideProps = withUniformGetServerSideProps({
     };
   },
 });
+
+export default PageComposition;
