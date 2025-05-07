@@ -5,15 +5,11 @@ function Button({
   link,
   openInNewTab = false,
 }: {
-  link: LinkParamValue | ProjectMapLinkParamValue;
+  link?: LinkParamValue | ProjectMapLinkParamValue;
   openInNewTab?: boolean;
 }) {
   const isSupportedLink =
     link?.type === "url" || link?.type === "projectMapNode";
-
-  if (!isSupportedLink) {
-    throw new Error(`Unsupported link type: ${link?.type}`);
-  }
 
   const href = isSupportedLink && link?.path?.length ? link.path : "#";
 
